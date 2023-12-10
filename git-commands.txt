@@ -20,6 +20,26 @@ git push -u origin main
 
 
 ---------------------------------------------------------------
+FOR MACOS. USE SSH
+---------------------------------------------------------------
+git init
+git remote -v : Check current url
+
+Change the remote URL to use SSH: You must have set up SSH for the git account
+------------------------------------------------------------------------------
+git remote set-url origin git@github.com:username/repo.git
+EXAMPLE: git remote set-url origin git@github.com:alexcy1/cse210-practice.git
+--------
+git remote -v
+git remote add origin git@github.com:username/repo.git
+
+git add .
+git commit -m "initial commit"
+git branch -M main
+git push -u origin main
+
+
+---------------------------------------------------------------
 PUSH TO EXISTING REPOSITORY
 ---------------------------------------------------------------
 git add .
