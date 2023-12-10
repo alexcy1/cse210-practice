@@ -1,0 +1,106 @@
+---------------------------------------------------------------
+https://sancy2.github.io/
+---------------------------------------------------------------
+
+git config --global user.name "sancy2"
+git config --global user.email "erruki.exchange@gmail.com"
+git config --list
+
+---------------------------------------------------------------
+FOR REPOSITORY NOT FOR HOSTING ON GITHUB
+---------------------------------------------------------------
+git init
+git add .
+git commit -m "initial commit"
+git status
+
+git branch -M main
+git remote add origin https://github.com/sancy2/sancy2.github.io.git
+git push -u origin main
+
+
+---------------------------------------------------------------
+PUSH TO EXISTING REPOSITORY
+---------------------------------------------------------------
+git add .
+git commit -m "initial commit"
+git push
+
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+COMPLETE DELETE REPOSITORY
+---------------------------
+git remote remove origin
+git remote -v
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+alexcy1.github.io
+---------------------------------------------------------------
+
+------------------------------------------
+STEP-1: Clone Repository
+------------------------------------------
+git clone https://github.com/alexcy1/alexcy1.github.io.git
+
+------------------------------------------
+STEP-2: Create Branch
+------------------------------------------
+git branch -c week_12
+git branch
+git checkout week_12
+
+------------------------------------------
+STEP-3: Make your changes
+------------------------------------------
+Create or editi files
+
+------------------------------------------
+STEP-4: Commit changes to the New Branch
+------------------------------------------
+git add .
+git commit -m "Added week_12"
+git push origin HEAD
+
+------------------------------------------
+STEP-: CREATE A PULL REQUEST FOR 
+(https://github.com/alexcy1/alexcy1.github.io/pull/new/week_12)
+------------------------------------------
+1. Invite / Give permission to review
+2. Click pull request
+
+------------------------------------------
+STEP-6: Merge the Branch with the Master
+------------------------------------------
+Click on MERGE
+
+------------------------------------------
+STEP-7: Update local branches
+------------------------------------------
+git pull (on the new branch)
+git pull (on the main branch)
+
+------------------------------------------
+STEP-8: Delete branch and start afresh
+------------------------------------------
+git branch -d week_12 (Delete the branch on local machine)
+git push -d origin week_12 (Delete the branch on Github)
+
+
+
+--------------------------------------------------------------
+PUSH DIRECTLY TO MAIN BRANCH
+-----------------------------
+git add .
+git commit -m "Updated week_12"
+git push
+--------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------
